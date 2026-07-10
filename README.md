@@ -300,6 +300,11 @@ print(r.ci(0.95))           #  (133676.4, 152385.2) — t interval on Rubin's de
 
 Full build ≈ 40 seconds after unpack, on a multi-core box. See `VARIABLES.md`.
 
+## License
+
+The code in this repository is in the public domain — [Unlicense](LICENSE). This licence covers the
+code and nothing else; see **Data** below for the terms of the underlying microdata.
+
 ## Data
 
 The EFF microdata is released by Banco de España for scientific research use only: it may not be
