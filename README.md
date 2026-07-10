@@ -300,14 +300,10 @@ print(r.ci(0.95))           #  (133676.4, 152385.2) — t interval on Rubin's de
 
 Full build ≈ 40 seconds after unpack, on a multi-core box. See `VARIABLES.md`.
 
-## Data & license
+## Data
 
-**The code is in the public domain** — released under the [Unlicense](LICENSE). Copy it, change it,
-publish it, sell it, with or without attribution. It is meant to be used.
-
-**The data is not mine to license, and it is restricted.** The EFF microdata is released by Banco
-de España for scientific research use only: it may not be transferred to third parties and may not
-be used commercially. This repository ships **only code**; `.gitignore` excludes all of the data,
+The EFF microdata is released by Banco de España for scientific research use only: it may not be
+transferred to third parties and may not be used commercially. This repository ships **only code**; `.gitignore` excludes all of the data,
 and also the generated `catalog/` and the `docs/` PDFs, since both are derived from that delivery.
 Obtain the data through the official channel above.
 
@@ -316,7 +312,7 @@ the results.
 
 ## Related pipelines
 
-Same design, other Spanish microdata sources — public domain, all of them:
+Same design, other Spanish microdata sources:
 
 - [`mvazcar/MCVL`](https://github.com/mvazcar/MCVL) — Muestra Continua de Vidas Laborales (Social Security)
 - [`mvazcar/PanelHogares`](https://github.com/mvazcar/PanelHogares) — AEAT/IEF Panel de Declarantes de IRPF
