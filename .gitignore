@@ -1,0 +1,45 @@
+# --- microdata (NEVER committed) ----------------------------------------------
+# The EFF is released for scientific use only and may not be transferred to third parties.
+# Obtain it yourself from Banco de España (see README) and let download.py place it here.
+raw_zipped/
+raw/
+temp/
+output/
+logs/
+*.parquet
+*.dta
+*.csv
+
+# --- generated catalogue ------------------------------------------------------
+# Unlike the ECV pipeline, the catalogue is NOT committed. It is derived from the restricted
+# delivery (variable labels, inventories, the label .do programs) and regenerating it is one
+# command: python run.py --catalog
+catalog/
+
+# --- Banco de España documentation --------------------------------------------
+# Publicly downloadable, but not ours to redistribute. unpack.py puts it here.
+docs/
+
+# --- credentials --------------------------------------------------------------
+# EFF_ACCESS_URL embeds your email and an auth ticket. Keep it in the environment.
+.env
+*.cookies
+cookies.txt
+
+# --- python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- IDE / OS -----------------------------------------------------------------
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Claude Code --------------------------------------------------------------
+.claude/

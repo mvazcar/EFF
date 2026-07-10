@@ -1,0 +1,12 @@
+# EFF pipeline — Python dependencies (Python 3.10+)
+polars>=1.0       # dataframe engine
+pyarrow           # parquet backend used by polars
+pyreadstat        # read Stata .dta with variable labels; polars has no .dta reader
+numpy             # the multiple-imputation and replicate-weight arithmetic in mi.py
+scipy             # only MIResult.ci(): the t quantile on Rubin's degrees of freedom
+
+# No external system dependency. Every EFF archive is a plain single-level zip, so unpack.py is
+# pure Python — unlike the Panel de Hogares pipeline, which needs UnRAR.
+#
+# Note pandas is pulled in transitively by pyreadstat, which returns a pandas frame that
+# readers.read_dta converts straight to polars.
