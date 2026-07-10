@@ -5,7 +5,7 @@ Builds analysis-ready tables from Banco de España's **Encuesta Financiera de la
 member reshape, the 1,000 bootstrap replicate weights, and a cross-wave household bridge.
 
 Same design philosophy as [`mvazcar/MCVL`](https://github.com/mvazcar/MCVL),
-[`mvazcar/PanelHogares`](https://github.com/mvazcar/PanelHogares) and
+[`mvazcar/panel-de-hogares`](https://github.com/mvazcar/panel-de-hogares) and
 [`mvazcar/ECV`](https://github.com/mvazcar/ECV): a single `config.py`, a `readers.py` of
 wave-aware readers, numbered `stepNN_*.py` modules each writing a parquet checkpoint, a
 `pipeline.py` orchestrator and a thin `run.py` CLI — plus a `download.py` that drives Banco de
@@ -320,7 +320,7 @@ the results.
 Same design, other Spanish microdata sources:
 
 - [`mvazcar/MCVL`](https://github.com/mvazcar/MCVL) — Muestra Continua de Vidas Laborales (Social Security)
-- [`mvazcar/PanelHogares`](https://github.com/mvazcar/PanelHogares) — AEAT/IEF Panel de Declarantes de IRPF
+- [`mvazcar/panel-de-hogares`](https://github.com/mvazcar/panel-de-hogares) — AEAT/IEF Panel de Declarantes de IRPF
 - [`mvazcar/ECV`](https://github.com/mvazcar/ECV) — INE, Encuesta de Condiciones de Vida (EU-SILC)
 - [`mvazcar/EFF`](https://github.com/mvazcar/EFF) — this repository
 

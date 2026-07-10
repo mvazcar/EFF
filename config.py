@@ -1,7 +1,7 @@
 """
 Configuration for the EFF (Encuesta Financiera de las Familias) pipeline.
 
-Mirrors the structure of mvazcar/MCVL, mvazcar/PanelHogares and mvazcar/ECV — a single
+Mirrors the structure of mvazcar/MCVL, mvazcar/panel-de-hogares and mvazcar/ECV — a single
 config.py, a readers.py of wave-aware readers, numbered stepNN_*.py modules writing parquet
 checkpoints, a pipeline.py orchestrator and a thin run.py CLI.
 
