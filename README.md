@@ -302,15 +302,25 @@ Full build ≈ 40 seconds after unpack, on a multi-core box. See `VARIABLES.md`.
 
 ## Data & license
 
-This repository ships **only code**. The EFF microdata is released by Banco de España for
-scientific research use, may not be transferred to third parties, and may not be used
-commercially; the `.gitignore` excludes all of it, and also the generated `catalog/` and the
-`docs/` PDFs, since both are derived from that delivery. Obtain the data through the official
-channel above.
+**The code is in the public domain** — released under the [Unlicense](LICENSE). Copy it, change it,
+publish it, sell it, with or without attribution. It is meant to be used.
+
+**The data is not mine to license, and it is restricted.** The EFF microdata is released by Banco
+de España for scientific research use only: it may not be transferred to third parties and may not
+be used commercially. This repository ships **only code**; `.gitignore` excludes all of the data,
+and also the generated `catalog/` and the `docs/` PDFs, since both are derived from that delivery.
+Obtain the data through the official channel above.
 
 Publications using the EFF must cite Banco de España as the source and must not implicate it in
 the results.
 
-Code is released under the MIT License (see `LICENSE`).
+## Related pipelines
+
+Same design, other Spanish microdata sources — public domain, all of them:
+
+- [`mvazcar/MCVL`](https://github.com/mvazcar/MCVL) — Muestra Continua de Vidas Laborales (Social Security)
+- [`mvazcar/PanelHogares`](https://github.com/mvazcar/PanelHogares) — AEAT/IEF Panel de Declarantes de IRPF
+- [`mvazcar/ECV`](https://github.com/mvazcar/ECV) — INE, Encuesta de Condiciones de Vida (EU-SILC)
+- [`mvazcar/EFF`](https://github.com/mvazcar/EFF) — this repository
 
 Built with Claude Code.
